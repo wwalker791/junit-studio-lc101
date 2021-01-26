@@ -27,6 +27,12 @@ public class BalancedBracketsTest {
         assertTrue(BalancedBrackets.hasBalancedBrackets("[1]"));
     }
     @Test
-    public void
+    public void longStringReturnsTrue() {
+        assertTrue(BalancedBrackets.hasBalancedBrackets("[Philadelphia]"));
+    }
+    @Test
+    public void longNumberReturnsTrue() {
+        assertTrue(BalancedBrackets.hasBalancedBrackets("[123456789]"));
+    }
 }
 
