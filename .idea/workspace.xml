@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="705a5edb-1f12-41a3-a9da-d103c200797d" name="Default Changelist" comment="5 tests committed">
+    <list default="true" id="705a5edb-1f12-41a3-a9da-d103c200797d" name="Default Changelist" comment="7 tests committed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/junit-studio-lc101/test/BalancedBracketsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/junit-studio-lc101/test/BalancedBracketsTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/BalancedBracketsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/BalancedBracketsTest.java" afterDir="false" />
@@ -35,7 +35,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.BalancedBracketsTest.testSetsOfBrackets">
+  <component name="RunManager" selected="JUnit.BalancedBracketsTest.testInvertedBrackets">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -44,6 +44,40 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BalancedBracketsTest.test3SetsofBrackets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-studio-lc101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BalancedBracketsTest" />
+      <option name="METHOD_NAME" value="test3SetsofBrackets" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BalancedBracketsTest.testInvertedBrackets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-studio-lc101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BalancedBracketsTest" />
+      <option name="METHOD_NAME" value="testInvertedBrackets" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -76,40 +110,6 @@
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.BalancedBracketsTest" />
       <option name="METHOD_NAME" value="testSetsOfBrackets" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BalancedBracketsTest.testSetsOfBracketsWString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit-studio-lc101" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.BalancedBracketsTest" />
-      <option name="METHOD_NAME" value="testSetsOfBracketsWString" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BalancedBracketsTest.testUnclosedBracket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit-studio-lc101" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.BalancedBracketsTest" />
-      <option name="METHOD_NAME" value="testUnclosedBracket" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -160,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BalancedBracketsTest.testInvertedBrackets" />
+        <item itemvalue="JUnit.BalancedBracketsTest.test3SetsofBrackets" />
         <item itemvalue="JUnit.BalancedBracketsTest.testSetsOfBrackets" />
         <item itemvalue="JUnit.BalancedBracketsTest.testUnclosedBrackets" />
         <item itemvalue="JUnit.BalancedBracketsTest.testNestedBrackets" />
-        <item itemvalue="JUnit.BalancedBracketsTest.testUnclosedBracket" />
-        <item itemvalue="JUnit.BalancedBracketsTest.testSetsOfBracketsWString" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611623982404</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="7 tests committed">
+      <created>1611625180348</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611625180348</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,6 +219,7 @@
     <MESSAGE value="4 tests commited" />
     <MESSAGE value="4 tests committed" />
     <MESSAGE value="5 tests committed" />
-    <option name="LAST_COMMIT_MESSAGE" value="5 tests committed" />
+    <MESSAGE value="7 tests committed" />
+    <option name="LAST_COMMIT_MESSAGE" value="7 tests committed" />
   </component>
 </project>

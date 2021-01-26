@@ -22,10 +22,6 @@ public class BalancedBracketsTest {
     public void singleLetterReturnsTrue() {
         assertTrue(BalancedBrackets.hasBalancedBrackets("[A]"));
     }
-    @Test
-    public void singleDigitReturnsTrue() {
-        assertTrue(BalancedBrackets.hasBalancedBrackets("[1]"));
-    }
 
     @Test
     public void testSetsOfBrackets() {
@@ -43,4 +39,12 @@ public class BalancedBracketsTest {
     public void testNestedBrackets() {
         assertTrue(BalancedBrackets.hasBalancedBrackets("[Root[Beer]]"));
     }
- }
+    @Test
+    public void test3SetsOfBrackets() {
+        assertTrue(BalancedBrackets.hasBalancedBrackets("[Over[Night[Sensation]]]"));
+    }
+    @Test
+    public void testInvertedBrackets() {
+        assertFalse(BalancedBrackets.hasBalancedBrackets("]Bingo["));
+    }
+}
