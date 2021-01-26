@@ -26,13 +26,21 @@ public class BalancedBracketsTest {
     public void singleDigitReturnsTrue() {
         assertTrue(BalancedBrackets.hasBalancedBrackets("[1]"));
     }
-    @Test
-    public void longStringReturnsTrue() {
-        assertTrue(BalancedBrackets.hasBalancedBrackets("[Philadelphia]"));
-    }
-    @Test
-    public void longNumberReturnsTrue() {
-        assertTrue(BalancedBrackets.hasBalancedBrackets("[123456789]"));
-    }
-}
 
+    @Test
+    public void testSetsOfBrackets() {
+        assertTrue(BalancedBrackets.hasBalancedBrackets("[Dim][Sum]"));
+    }
+    @Test
+    public void testUnclosedBracket() {
+        assertFalse(BalancedBrackets.hasBalancedBrackets("[Samsung"));
+    }
+    @Test
+    public void testUnclosedBrackets() {
+        assertFalse(BalancedBrackets.hasBalancedBrackets("[Succulent]["));
+    }
+    @Test
+    public void testNestedBrackets() {
+        assertTrue(BalancedBrackets.hasBalancedBrackets("[Root[Beer]]"));
+    }
+ }
